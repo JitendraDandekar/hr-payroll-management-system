@@ -31,21 +31,21 @@ from accounts.models import Employee
 #     def professional_tax(self):
 #         return 200
 #
-#     def net_salary(self):
-#         return self.monthly_salary() - self.hra() - self.conveyance() - self.pf() - self.esic() - self.professional_tax()
+# def net_salary(self): return self.monthly_salary() - self.hra() - self.conveyance() - self.pf() - self.esic() -
+# self.professional_tax()
 
 
 class Salary(models.Model):
     employee_id = models.ForeignKey(Employee, on_delete=models.CASCADE)
-    ppa = models.IntegerField()
-    monthly_salary = models.IntegerField()
-    basic_da = models.IntegerField()
-    hra = models.IntegerField()
-    conveyance = models.IntegerField()
-    pf = models.IntegerField()
-    esic = models.IntegerField()
-    professional_tax = models.IntegerField()
-    net_salary = models.IntegerField()
+    ppa = models.FloatField()
+    monthly_salary = models.FloatField()
+    basic_da = models.FloatField()
+    hra = models.FloatField()
+    conveyance = models.FloatField()
+    pf = models.FloatField()
+    esic = models.FloatField()
+    professional_tax = models.FloatField()
+    net_salary = models.FloatField()
 
     class Meta:
         db_table = 'salary'

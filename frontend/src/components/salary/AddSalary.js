@@ -1,8 +1,12 @@
 import React, { useState } from "react";
+import { csrftoken } from "../API/CSRFToken";
+import AddEmployee from "../employees/AddEmployee";
 import "./AddSalary.css";
 
-function AddSalary() {
+function AddSalary({ empId }) {
+  const [submit, setSubmit] = useState(false);
   const [input, setInput] = useState({
+    employee_id: empId,
     ppa: 0,
     monthly_salary: 0,
     basic_da: 0,
@@ -53,6 +57,29 @@ function AddSalary() {
       net_salary: net_salary,
     });
   };
+
+  const submitHandle = (e) => {
+    e.preventDefault();
+
+    fetch(`http://127.0.0.1:8000/api/salary/`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "X-CSRFToken": csrftoken,
+      },
+      body: JSON.stringify(input),
+    })
+      .then((res) =>
+        res.ok
+          ? alert("Employee created Successfully!")
+          : alert("Failed To Add!")
+      )
+      .then(setSubmit(true));
+  };
+
+  if (submit) {
+    return <AddEmployee />;
+  }
 
   return (
     <div className="AddSalary AddEmployee shadow-lg">
@@ -212,7 +239,12 @@ function AddSalary() {
           <div className="AddEmployee__form__body">
             <div className="AddEmployee__form__button">
               <input type="reset" value="Reset" className="btn btn-warning" />
-              <input type="submit" value="Submit" className="btn btn-success" />
+              <input
+                type="submit"
+                value="Submit"
+                className="btn btn-success"
+                onClick={submitHandle}
+              />
             </div>
           </div>
         </div>

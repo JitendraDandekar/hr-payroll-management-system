@@ -5,6 +5,7 @@ from rest_framework.response import Response
 
 from .models import Salary
 from .serializers import SalarySerializer
+from accounts.models import Employee
 
 
 class SalaryViewSet(viewsets.ModelViewSet):
@@ -12,24 +13,6 @@ class SalaryViewSet(viewsets.ModelViewSet):
     serializer_class = SalarySerializer
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ['employee_id']
-
-    # def list(self, request):
-    #     emp_id = request.GET.get('empId', None)
-    #
-    #     if emp_id is not None:
-    #         with connection.cursor() as cursor:
-    #             cursor.execute('select * from salary where employee_id_id=%s;', [emp_id])
-    #             rows = cursor.fetchall()
-    #     else:
-    #         with connection.cursor() as cursor:
-    #             cursor.execute('select * from salary;')
-    #             rows = cursor.fetchall()
-    #
-    #     columns = ['id', 'ppa', 'monthly_salary', 'basic_da', 'hra', 'conveyance', 'pf', 'esic', 'professional_tax',
-    #                'net_salary', 'employee_id']
-    #     for row in rows:
-    #         data = dict(zip(columns, row))
-    #     return Response(data, status=200)
 
 
 class MonthlySalaryViewSet(viewsets.ViewSet):

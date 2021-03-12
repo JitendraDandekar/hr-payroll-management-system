@@ -4,8 +4,11 @@ import { csrftoken } from "../API/CSRFToken";
 import AddSalary from "../salary/AddSalary";
 
 function AddEmployee() {
-  const [input, setInput] = useState({});
+  const [input, setInput] = useState({
+    active: true,
+  });
   const [file, setFile] = useState({});
+  const [empId, setEmpId] = useState();
   const [submit, setSubmit] = useState(false);
 
   const inputHandle = (e) => {
@@ -35,8 +38,12 @@ function AddEmployee() {
       body: formData,
     }).then((res) =>
       res.ok
-        ? (alert("Employee Added Successfully!"), setSubmit(true))
-        : alert("Failed To Added!")
+        ? (res
+            .json()
+            .then((data) => setEmpId(data.emp_id))
+            .then(setSubmit(true)),
+          alert("Employee Added Successfully!"))
+        : alert("Failed To Add!")
     );
   };
 
@@ -44,8 +51,8 @@ function AddEmployee() {
     setInput({});
   };
 
-  if (submit) {
-    return <AddSalary />;
+  if (submit && empId) {
+    return <AddSalary empId={empId} />;
   }
 
   return (
