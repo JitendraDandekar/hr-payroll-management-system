@@ -4,8 +4,8 @@ It helps hr to maintain employees data properly like salary, leaves, attendance,
 
 ## Setup
   * Download/clone repo.
-  * Create and activate a virtual environment.
-  * Install Django and other dependencies with pipenv install Pipfile.
+  * Install pipenv using pip install pipenv.
+  * Install dependancies using pipenv install Pipfile.
   * Run Django app using python manage.py runserver.
   * Install React dependencies with npm install.
   * Run React app with npm start.
