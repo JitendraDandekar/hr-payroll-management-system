@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+pillow = "*"
+django-filter = "*"
+selenium = "*"
+bs4 = "*"
+pep8 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
