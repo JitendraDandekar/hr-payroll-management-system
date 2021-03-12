@@ -23,14 +23,14 @@ It helps hr to maintain employees data properly like salary, leaves, attendance,
 ![Screenshot from 2021-03-12 13-39-14](https://user-images.githubusercontent.com/60399471/110911717-0d08ff00-8339-11eb-9643-578f41d1fc58.png)
 
 ## Employees Status Page
-![Screenshot from 2021-03-12 13-39-19](https://user-images.githubusercontent.com/60399471/110911833-32960880-8339-11eb-998e-33fda171130a.png)
+![Screenshot from 2021-03-12 15-00-47](https://user-images.githubusercontent.com/60399471/110920925-f3b98000-8343-11eb-95ad-92a320bcb5cc.png)
 
 ## Employee Profile Page
 ![Screenshot from 2021-03-12 13-47-37](https://user-images.githubusercontent.com/60399471/110912181-a33d2500-8339-11eb-8f04-554cc2d3c03e.png)
 ![Screenshot from 2021-03-12 13-47-38](https://user-images.githubusercontent.com/60399471/110912200-a9330600-8339-11eb-946d-3b877045ed5e.png)
 
 ## Salary Status Page
-![Screenshot from 2021-03-12 13-39-12](https://user-images.githubusercontent.com/60399471/110911620-f2cf2100-8338-11eb-8fd2-109c6a0debf8.png)
+![Screenshot from 2021-03-12 14-57-36](https://user-images.githubusercontent.com/60399471/110921101-2ebbb380-8344-11eb-9894-5bd36c83bb06.png)
 
 ## Admin Panel Page
 ![Screenshot from 2021-03-12 13-39-21](https://user-images.githubusercontent.com/60399471/110911888-46416f00-8339-11eb-892c-fcbe1b97076b.png)
