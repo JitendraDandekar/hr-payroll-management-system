@@ -1,0 +1,33 @@
+.employee-count-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;	
+}
+
+.employee-count {
+	background-color: #abd1ff;
+	width: 50vh;
+	margin: 20px 40px;
+	text-align: center;
+}
+
+#employee-search-form{
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+#employee-search-form > input {
+	outline: none;
+	border-radius: 0;
+	border: 1px solid #cccccc;
+}
+
+.employee-table {
+	height: 60vh;
+	overflow-y: auto;
+}
+
+.edit-btn {
+	cursor: pointer;
+}

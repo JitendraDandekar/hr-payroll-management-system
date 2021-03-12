@@ -1,0 +1,16 @@
+.Home {
+  padding-left: 20px;
+  height: 91.6vh;
+  display: flex;
+  background-color: skyblue;
+}
+
+.Home__mainCol > div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hover:hover {
+  transition: 0.5s ease;
+  transform: scale(1.05);
+}

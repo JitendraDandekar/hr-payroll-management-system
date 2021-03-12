@@ -1,0 +1,35 @@
+.AdminPanel {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+
+.AdminPanel__details {
+  background-color: white;
+  width: 75%;
+  height: 85vh;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.AdminPanel__form {
+  /* background-color: white; */
+  width: 25%;
+  padding: 0px 10px;
+}
+
+.AdminPanel__form form {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.AdminPanel__form legend {
+  text-decoration: underline;
+}
+
+.AdminPanel__form__button > input {
+  width: 12vh;
+}

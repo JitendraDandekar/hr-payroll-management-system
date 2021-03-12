@@ -1,0 +1,41 @@
+.Home__period__card {
+  background-color: white;
+  height: 21vh;
+  min-width: 55vh;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+.Home__period__date {
+  font-weight: bold;
+}
+
+.Home__period__cost {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.Home__period__payCost {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home__period__payCost__rupees {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.Home__period__payCost__tag {
+  font-weight: 900;
+  color: #cccccc;
+  font-size: small;
+}
+
+.Home__period__download {
+  font-weight: 600;
+  font-size: 15px;
+  color: rgb(2, 153, 173);
+}

@@ -1,0 +1,42 @@
+.Home__employee__count {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 21vh;
+  padding-top: 10px;
+  min-width: 83vh;
+  transition: 0.5s ease;
+}
+
+.Home__employee__countCard {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.Home__employee__countContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home__employee__count__lineOne {
+  font-weight: bold;
+  color: grey;
+}
+
+.Home__employee__count__lineTwo {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.Home__employee__countTitle {
+  font-weight: bolder;
+}
+
+.Home__employee__count__verticalLine {
+  border-left: 1px solid grey;
+}

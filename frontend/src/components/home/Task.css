@@ -1,0 +1,17 @@
+.Task {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  align-items: center;
+  margin-right: 20px;
+  margin-top: 20px;
+  min-height: 47vh;
+  transition: 0.5s ease;
+}
+
+.Task__horizontalLine {
+  border-top: 1px solid gray;
+  width: 90%;
+}

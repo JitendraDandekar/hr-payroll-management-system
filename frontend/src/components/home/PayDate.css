@@ -1,0 +1,28 @@
+.Home__payDate__card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 30px;
+  min-width: 25vh;
+  height: 21vh;
+  margin-right: 20px;
+  transition: 0.5s ease;
+}
+
+.Home__payDate__card__lineOne {
+  font-weight: bold;
+  color: rgb(199, 199, 199);
+}
+
+.Home__payDate__card__lineTwo {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.Home__payDate__card__lineFour {
+  width: 100%;
+  border-top: 1px solid black;
+}

@@ -1,0 +1,10 @@
+.AdminList__password {
+  background: none;
+  border: none;
+  outline: none;
+  width: 20vh;
+}
+
+.AdminList__button {
+  cursor: pointer;
+}

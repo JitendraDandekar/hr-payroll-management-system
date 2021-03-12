@@ -1,0 +1,32 @@
+.Login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #a6b9ff;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.login-form > legend {
+  font-size: x-large;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.login-form input {
+  font-weight: bolder;
+}
+
+.Login__error {
+  text-transform: capitalize;
+}

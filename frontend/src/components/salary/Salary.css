@@ -1,0 +1,25 @@
+.Salary {
+  width: 100%;
+  padding: 20px;
+}
+
+.Salary__cards {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Salary__employee {
+  background-color: white;
+  height: 85vh;
+  overflow-y: auto;
+}
+
+#paidStatus {
+  border-radius: 5px;
+  outline: none;
+  padding: 3px;
+}
+
+.Salary__upload {
+  cursor: pointer;
+}

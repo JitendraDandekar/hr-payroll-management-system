@@ -1,0 +1,21 @@
+.Events {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 38vh;
+  padding: 10px;
+  min-width: 83vh;
+  transition: 0.5s ease;
+}
+
+.Events__title {
+  padding-left: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Events__horizontalLine {
+  border-top: 1px solid gray;
+  margin: 2px 0;
+}

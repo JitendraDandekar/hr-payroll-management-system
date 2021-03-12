@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "python.pythonPath": "/usr/bin/python3.7",
+    "python.formatting.provider": "black"
+}

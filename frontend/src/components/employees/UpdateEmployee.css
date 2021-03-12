@@ -1,0 +1,121 @@
+.UpdateEmployee {
+  width: 100%;
+  display: flex;
+  max-height: 91.5vh;
+}
+
+.UpdateEmployee__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  min-width: 20%;
+}
+
+.UpdateEmployee__profile > img {
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+}
+
+.UpdateEmployee__details {
+  width: 80%;
+  padding: 10px 20px;
+  background-color: #f7f7f7;
+  min-height: 91.5vh;
+  overflow-y: auto;
+}
+
+.UpdateEmployee__profile__personalDetails {
+  font-size: 15px;
+}
+
+.UpdateEmployee__profile__personalDetails > li {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.UpdateEmployee__profile > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.UpdateEmployee__profile > div > i {
+  text-align: right;
+}
+
+#UpdateEmployee__profile__fullName {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.UpdateEmployee__details__count {
+  display: flex;
+}
+
+.UpdateEmployee__profile__title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.UpdateEmployee__profile__title > div {
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.UpdateEmployee__details__nav {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.UpdateEmployee__details__nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  height: 8vh;
+  align-items: center;
+}
+
+.UpdateEmployee__details__nav ul li {
+  padding: 5px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.UpdateEmployee__details__nav ul li:hover {
+  background-color: rgb(17, 133, 201);
+  color: white;
+}
+
+.UpdateEmployee__details__container {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.UpdateEmployee__details__bankInfo {
+  background-color: whitesmoke;
+  width: 60vh;
+  border-radius: 10px;
+  padding: 20px;
+  /* color: gray; */
+}
+
+.UpdateEmployee__details__bankInfo__header {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.UpdateEmployee__details__bankInfo ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 0;
+}

@@ -1,0 +1,65 @@
+.AddEmployee {
+  background-color: white;
+  text-align: center;
+  margin: 2vh 30vh;
+}
+
+.AddEmployee__header {
+  background-color: rgb(228, 144, 35);
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 30px;
+  padding: 5px 0;
+}
+
+.AddEmployee__form__row {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.AddEmployee__form__header {
+  width: 20%;
+  font-weight: bold;
+}
+
+.AddEmployee__form__required {
+  color: red;
+  margin: 2px;
+}
+
+.AddEmployee__form__body {
+  width: 80%;
+  display: flex;
+}
+
+.AddEmployee__form__body > input,
+.AddEmployee__form__body > textarea {
+  background-color: #cccccc;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  padding: 5px;
+  width: 50vh;
+  margin: 0 10px;
+}
+
+.AddEmployee__form__radio {
+  padding-right: 20px;
+}
+
+.AddEmployee__form__radio input {
+  margin: 0 10px;
+}
+
+.AddEmployee__form__button {
+  width: 100%;
+  text-align: right;
+  padding-right: 5vh;
+  padding-bottom: 2vh;
+}
+
+.AddEmployee__form__button > input {
+  margin-right: 10px;
+}
